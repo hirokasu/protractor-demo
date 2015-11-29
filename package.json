@@ -1,0 +1,18 @@
+{
+  "name": "protractor-demo",
+  "version": "0.0.1",
+  "description": "protractorの実行",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "sudo ./node_modules/protractor/bin/webdriver-manager update",
+    "start": "./node_modules/protractor/bin/webdriver-manager start",
+    "test": "protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirokasu/protractor-demo.git"
+  },
+  "devDependencies": {
+    "protractor": "^2.5.1"
+  }
+}
